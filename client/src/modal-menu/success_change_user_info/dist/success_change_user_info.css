@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.success-change-user-info_con {
+  position: fixed;
+  background: rgba(189,255,184,0.87);
+  border-radius: 1.48vh 0 0 1.48vh;
+  z-index: 4;
+  padding-left: 2.368vw;
+  box-sizing: border-box;
+  transition: 0.8s;
+  gap: 1.3888vw;
+  top: 7.8125vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  right: -20vw;
+  opacity: 0;
+  width: 28.98vw;
+  height: 9.57vh;
+}

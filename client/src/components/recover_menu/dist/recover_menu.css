@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.recover_menu_con {
+  width: 99.6vw;
+  height: 96.19vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.recover_menu {
+  width: 44.44vw;
+  height: 63.7vh;
+  border: 1px solid #d9d9d9;
+  border-radius: 1.46vh;
+  box-shadow: 0.247vw 0.39vh 1.38vw rgba(0,0,0,0.164);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  padding: 2.35% 0 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: 0.8s;
+}
+.recover_menu_fields_con {
+  width: 87.5%;
+  height: 15.16%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  position: relative;
+}
+.dynamicInputRecover {
+  transition: 0.6s;
+  width: 100%;
+  height: 68%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #d9d9d9;
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  padding-left: 0.5vh;
+}
+.dynamicInputRecover::placeholder {
+  opacity: 0;
+}
+.dynamicInputRecover:focus ~ .dynamicLabelRecover {
+  color: #ffb75e;
+}
+.dynamicInputRecover:not(:placeholder-shown) ~ .dynamicLabelRecover {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  opacity: 60%;
+  top: 0;
+}
+.dynamicLabelRecover {
+  user-select: none;
+  transition: 0.2s;
+  position: absolute;
+  top: 4.5vh;
+  left: 0.5vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+.button_container_recover {
+  width: 87.5%;
+  height: 10.41%;
+  margin-top: 8.57%;
+  border-radius: 0.68vw;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.button_container_recover:hover {
+  border: 2px solid #ffb75e;
+}
+.button_container_recover:hover .login_btn_recover {
+  width: 0;
+  height: 100%;
+}
+.button_container_recover:hover .login_btn_recover_hover {
+  width: 100%;
+  height: 100%;
+}
+.login_btn_recover {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: #2a2c34;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.login_btn_recover_hover {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 0;
+  border: none;
+  width: 0;
+  height: 100%;
+  outline: none;
+  color: #2a2c34;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.expired_date {
+  width: 90%;
+  height: 90%;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  gap: 2vh;
+}
+.expired_link {
+  color: #ffb75e;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.expired_link:hover {
+  opacity: 68%;
+}

@@ -1,0 +1,40 @@
+*{
+   margin:0;
+}
+
+/*Chrome and safari*/
+::-webkit-scrollbar {
+   width: .4vw;
+}
+
+::-webkit-scrollbar-track {
+   background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+   background: #2A2C34; 
+   border-radius: 2vh;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: #1c1f2b;
+}
+
+
+/*Mozilla*/
+::-moz-scrollbar {
+   width: .4vw;
+}
+
+::-moz-scrollbar-track {
+   background: #ffffff; 
+}
+
+::-moz-scrollbar-thumb {
+   background: #2A2C34; 
+   border-radius: 2vh;
+}
+
+::-moz-scrollbar-thumb:hover {
+   background: #1c1f2b;
+}

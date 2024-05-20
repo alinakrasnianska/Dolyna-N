@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.lang_mark {
+  color: #ffb75e;
+  position: absolute;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.33rem;
+  line-height: 1.4rem;
+  top: 3.5vh;
+  right: 2vw;
+}
+.add_cereals-block {
+  width: 88.888vw;
+  box-sizing: border-box;
+  padding: 4.1992vh 0 0 4.72222vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  gap: 1.66vh;
+}
+.main_con {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  width: 100%;
+  gap: 2%;
+}
+.add_cereals-main {
+  position: relative;
+  width: 50%;
+  height: 63.7695vh;
+  max-width: 44vw;
+  min-width: 50%;
+  box-shadow: 0.247vw 0.39vh 1.38vw rgba(0,0,0,0.164);
+  border-radius: 1.46vh;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  padding: 4.78515625vh 2.43vw 7.5vh 2.43vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  gap: 4.98vh;
+}
+.add_cereals-title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.222rem;
+  line-height: 2.3rem;
+  margin-left: 3.125vw;
+}
+.admin_fields_con {
+  width: 100%;
+  height: 9.765625vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  position: relative;
+}
+.adminInput {
+  transition: 0.6s;
+  width: 100%;
+  height: 68%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #d9d9d9;
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.33rem;
+  line-height: 1.4rem;
+  padding-left: 0.5vh;
+}
+.adminInput::placeholder {
+  opacity: 0;
+}
+.adminInput:focus ~ .adminLabel {
+  color: #ffb75e;
+}
+.adminInput:not(:placeholder-shown) ~ .adminLabel {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  opacity: 60%;
+  top: 0;
+}
+.adminLabel {
+  user-select: none;
+  transition: 0.2s;
+  position: absolute;
+  top: 4.8vh;
+  left: 0.5vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.33rem;
+  line-height: 1.4rem;
+}
+.addImg_cereal_con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.img_input {
+  display: none;
+}
+.adminLabel_accept {
+  width: 38.8vw;
+  height: 6.64vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  cursor: pointer;
+  background: #ffb75e;
+  color: #fff;
+  border-radius: 0.97vh;
+  transition: 0.5s;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.98rem;
+  line-height: 1.4rem;
+}
+.adminLabel_accept:hover {
+  background: #000;
+}
+.adminLabel_accepted {
+  cursor: pointer;
+  width: 38.8vw;
+  height: 6.64vh;
+  overflow: hidden;
+  padding-left: 2vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  background: #000;
+  color: #fff;
+  border-radius: 0.97vh;
+  transition: 0.5s;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.98rem;
+  line-height: 1.4rem;
+}
+.adminLabel_accepted:hover {
+  background: #fff;
+  color: #000;
+}
+.admin_buttons_block {
+  width: 100%;
+  height: 6.64vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  gap: 0.97vw;
+  margin-top: 2.91vh;
+}
+.admin_buttons {
+  width: 17.847vw;
+  height: 100%;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid #d9d9d9;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11rem;
+  line-height: 1.2rem;
+  border-radius: 0.97vh;
+}
+.admin_clear_cereal {
+  background: #fff;
+  transition: 0.5s;
+}
+.admin_clear_cereal:hover {
+  background: rgba(136,136,136,0.68);
+  width: 30vw;
+}
+.admin_add_cereal {
+  background: #2a2c34;
+  color: #fff;
+  transition: 0.5s;
+}
+.admin_add_cereal:hover {
+  background: rgba(42,44,52,0.68);
+  width: 50vw;
+}
+.admin_alert {
+  color: #f00;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.description_counter {
+  position: absolute;
+  right: 0;
+  top: 2vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #ffb75e;
+}
+.description_counter_zero {
+  position: absolute;
+  right: 0;
+  top: 2vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}

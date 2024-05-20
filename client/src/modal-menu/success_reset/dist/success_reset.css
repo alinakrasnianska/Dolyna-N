@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.success_con {
+  top: -20vh;
+  transition: 0.2s;
+  position: fixed;
+  width: 100vw;
+  height: 12.69vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-flow: row nowrap;
+  z-index: 2;
+}
+.success_reset {
+  width: 27.77%;
+  height: 69.23%;
+  background: rgba(248,179,87,0.69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  border-radius: 0.9vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}

@@ -1,0 +1,92 @@
+@import '../../modules/basic'
+
+.product-view_con 
+   sizer(99.6vw,76.269vh)
+   flexer(c,c,cn)
+.view-title
+   fonter(sbold,2.5rem,2.7rem)
+.product-view
+   flexer(s,s,rn)
+   gap 4.86vw
+   sizer(78.54166%,45.41015vh)   
+.view_content
+   flexer(s,s,cn)
+   gap 5.664vh
+.view-form
+   gap 2vh
+   position relative
+   sizer(44.4444vw,30.078125vh)  
+   border-radius: 1.4648vh
+   border 1px solid #D9D9D9
+   box-shadow: 0.247vw 0.39vh 1.38vw rgba(0, 0, 0, 0.164)
+   box-sizing border-box
+   padding: 4.78vh 3.125vw 4.78vh 3.125vw
+   flexer(s,s,cn)
+.view_form_input
+   order 2
+   sizer(38.88888vw,6.640625vh)
+   outline: none 
+   border none
+   border-bottom 2px solid #D9D9D9 
+   fonter(sbold,1.5rem,1.7rem)
+   caret-color y
+   &:focus 
+      ~.form_title_label
+         color y
+   
+.form_title_label
+   transition .3s
+   fonter(sbold,1rem,1.2rem)
+   order 1
+
+.view_form_input_icon
+   order 3
+   position absolute
+   fonter(sbold,1rem,1rem)
+   right: 3vw
+   top 12vh
+.add_to_cart
+   order 4
+   fonter(med,1rem,1.2rem)
+   sizer(38.88888vw,6.640625vh)
+   background: b 
+   color white  
+   padding 0 
+   box-sizing: border-box
+   border 2px solid #D9D9D9
+   border-radius 0.98vh
+   margin-top 1.1vh
+   transition .4s
+   &:hover
+      background: #2a2c349f
+      color white
+   &:active
+      border 2px solid y
+      background: y
+      color white
+.view_picture
+   sizer(30.27777vw,100%)
+   border 1px solid y 
+   border-radius 1.48vh
+   box-shadow: 0.247vw 0.39vh 1.38vw y
+   overflow hidden
+   flexer(c,c,rn)
+.view_picture_img    
+   height:   100%
+.arrow_back_to_cereals
+   background: y  
+   sizer(2vw,2vw)
+   position: absolute
+   top 12vh
+   left 2vw 
+   border-radius 100vh
+   flexer(c,c,rn)
+   cursor pointer
+   z-index 0
+.arrow_back_button
+   sizer(50%,70%)
+   min-width: 50%
+   background: #FFFFFF
+   clip-path: polygon(0 50%, 78% 0, 33% 50%, 78% 100%);
+   border-radius: .5vh
+   

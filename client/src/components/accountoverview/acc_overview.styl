@@ -1,0 +1,59 @@
+@import '../../modules/basic'
+
+.acc_overview
+   overflow: hidden
+   transition .4s
+   sizer(100%,53.3203125vh)
+   flexer(c,c,rn)
+   gap 3.81944444444vw
+   .acc_general_info
+      flexer(s,s,cn) 
+      gap 2vh
+      sizer(44.444vw,28.41796875vh)
+      border 1px solid #D9D9D9
+      border-radius 1.46vh
+      box-shadow: 0.247vw 0.39vh 1.38vw rgba(0, 0, 0, 0.164)
+      box-sizing: border-box
+      padding: 2.83vh 0 0 4.166vw
+      .general_info_title
+         fonter(sbold,1.3rem,1.5rem)
+      .general_info_input_con
+         flexer(c,s,cn)
+         gap 2vh
+         .general_input_con
+            position relative
+            flexer(s,c,rn)
+            sizer(38.8888888889vw,6.640625vh)
+            .general_info_input
+               sizer(100%,100%)
+               background b 
+               border-radius 0.987vh
+               color white
+               box-sizing: border-box
+               padding-left: 1.1527777vw
+               flexer(c,c,rn)
+               fonter(sbold,1rem,1rem)
+            .general_call_icon
+               width: 2.832vh
+               position absolute
+               right 1vw
+   .general_info_request
+      overflow: scroll
+      sizer(100%,78%)
+      .last_request
+         sizer(100%,100%)
+         flexer(sa,s,rn)
+         gap 7.3611vw
+         overflow: hidden
+         .last_req_img_con
+            sizer(18.65vh,18.65vh)
+            .last_req_img
+               width 100%
+         .last_req_text
+            margin-top 4%
+            flexer(c,c,cn)
+            gap .7vh
+            fonter(sbold,1.11rem,1.3rem)
+
+.total_quote_quntity
+   fonter(400,1rem,1.2rem)

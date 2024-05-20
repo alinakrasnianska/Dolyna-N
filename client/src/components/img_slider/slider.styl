@@ -1,0 +1,111 @@
+@import '../../modules/basic'
+
+
+.img_slider
+   sizer(100%,80vh)
+   position relative;
+   overflow hidden
+.black_block   
+   position: absolute
+   sizer(100%,100%)
+   top 0
+   left 0
+   background: rgba(0, 0, 0, 0.37)
+.title
+   z-index: 2
+   position: absolute
+   fonter(700,3.625rem,4.8rem)
+   color white
+   width 60vw
+   top 20.48%
+   left 10.15%
+.title1 
+   width 60vw
+.title2 
+   width 60vw
+.title3 
+   width 80vw
+.description
+   z-index: 2
+   color white
+   width 40.8%
+   fonter(300,2.5vh,2.7vh)
+.description1 
+   position: absolute
+   top 62%
+   left 47%
+.description2 
+   position: absolute
+   top 42%
+   left 10.15%
+.description3
+   position: absolute
+   top 58%
+   left 38%
+
+.scroll_bottom
+   user-select: none
+   background: rgba(0, 0, 0, 0.54)
+   border-radius: 100vw
+   flexer(c,c,rn)
+   sizer(5.5%,100%)
+   cursor pointer 
+   transition .2s 
+   box-sizing border-box
+   img
+      sizer(50%,50%)
+   &:hover 
+      border 1px solid white
+.scroll_imgs
+   sizer(22%,100%,)
+   flexer(e,e,rn)
+   gap 12%
+   cursor pointer
+
+.btn_bar
+   sizer(92.08%,100%)   
+   flexer(sb,e,rn)   
+.scroll_menu
+   sizer(8.6%,34.65%)
+   background: rgba(0, 0, 0, 0.54)
+   border-radius 100vw
+   box-sizing: border-box
+.active
+   border 1px solid white
+.connect_to_sap
+   user-select: none
+   flexer(c,c,rn)
+   sizer(10%,40%)
+   border-radius .9vh
+   background: rgba(0, 0, 0, 0.54)
+   transition .4s
+   box-sizing: border-box;
+   img 
+      sizer(60%,60%)
+      margin-top -10%
+   &:hover 
+      border 1px solid white
+
+.btn_bar_con
+   sizer(100%,12.68%)
+   position: absolute
+   bottom 5.121%
+   z-index 2
+   flexer(c,c,rn)
+.imgs_con
+   sizer(300%,100%)
+   flexer(s,c,rn)
+   overflow: hidden
+   
+
+.img_con 
+   sizer(33.3%,100%)
+   transition: .5s
+   position: relative
+   overflow: hidden;
+
+
+.img_con_img
+   user-select: none
+   width: 100vw
+   margin-top -12vh

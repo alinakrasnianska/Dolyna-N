@@ -1,0 +1,81 @@
+@import '../../modules/basic'
+
+.acc_data
+   flexer(c,c,cn)  
+   overflow: hidden
+   sizer(0,0) 
+   transition .4s
+   gap 4.4921875vh
+.personal_data
+   fonter(sbold,2.222222rem,2.3rem)
+.change_data_form
+   padding: 4.78515625vh 3.125vw
+   box-sizing: border-box
+   sizer(44.4444vw,71.289vh)
+   border 1px solid #D9D9D9
+   border-radius 1.46vh
+   box-shadow: 0.247vw 0.39vh 1.38vw rgba(0, 0, 0, 0.164)
+   flexer(s,c,cn)
+.acc_data_fields_con
+   sizer(96.5%,11.69%)
+   flexer(e,s,cn)
+   position: relative;
+.dynamicInputacc_data
+   sizer(100%, 68%)
+   outline none
+   border-top none
+   border-left none
+   border-right none
+   border-bottom solid 2px #D9D9D9
+   box-sizing border-box
+   fonter(650, 1.5rem, 1.6rem)
+   padding-left .5vh
+   &::placeholder
+      opacity 0
+   &:focus
+      ~ .dynamicLabeldata
+         color y
+   &:not(:placeholder-shown)
+      ~ .dynamicLabeldata
+         fonter(650, 1rem, 1.3rem)
+         opacity 60%
+         top 0
+         
+.dynamicLabeldata
+   user-select none
+   transition .2s
+   position absolute
+   top 2.9vh
+   left .5vh
+   fonter(650, 1.33rem, 1.4rem)
+
+.register_fields
+   margin-top 4vh
+.acc_data_btn_con
+   margin-top 7.5vh
+   sizer(82.5%,6.64vh)
+   flexer(c,c,rn) 
+   gap 2.1875%
+   .acc_data_btn
+      sizer(48.6742%,100%)
+      border-radius 0.98vh
+      fonter(sbold,1.11rem,1.3rem) 
+      outline: none 
+      border 2px solid #D9D9D9
+      transition .2s
+      user-select: none 
+      cursor pointer
+   .acc_data_cancel
+      background: white
+      &:hover
+         opacity 60%
+         background: b
+         color white 
+   .acc_data_save
+      background: b
+      color white 
+      &:hover 
+         opacity 70%
+         width 82%
+         
+

@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.send_form_con {
+  width: 100%;
+  height: 56.54vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  gap: 10.97vw;
+}
+.send_form_first_row {
+  width: 100%;
+  height: 12.871287%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  gap: 8.29%;
+}
+.send_form_title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.22rem;
+  line-height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin-bottom: 5.56%;
+}
+.send_form {
+  width: 41.04%;
+  height: 78.77%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-flow: column nowrap;
+  gap: 5.95%;
+  position: relative;
+}
+.contact_fields_con {
+  width: 45.85448%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  position: relative;
+}
+.contact_fields_con_full {
+  width: 100%;
+  height: 12.871287%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+}
+.dynamicInputLittle {
+  width: 100%;
+  height: 68%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #d9d9d9;
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding-left: 0.5vh;
+}
+.dynamicInputLittle::placeholder {
+  opacity: 0;
+}
+.dynamicInputLittle:focus ~ .dynamicLabelLittle {
+  color: #ffb75e;
+}
+.dynamicInputLittle:not(:placeholder-shown) ~ .dynamicLabelLittle {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  opacity: 60%;
+  top: -1vh;
+}
+.dynamicInputLittle::-webkit-outer-spin-button,
+.dynamicInputLittle::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.dynamicLabelLittle {
+  user-select: none;
+  transition: 0.2s;
+  position: absolute;
+  top: 1.6vh;
+  left: 0.5vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.dynamicInputBig {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #d9d9d9;
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding-left: 0.5vh;
+}
+.dynamicInputBig::placeholder {
+  opacity: 0;
+}
+.dynamicInputBig:focus ~ .dynamicLabelBig {
+  color: #ffb75e;
+}
+.dynamicInputBig:not(:placeholder-shown) ~ .dynamicLabelBig {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  opacity: 60%;
+  top: -0.5vh;
+}
+.dynamicLabelBig {
+  user-select: none;
+  transition: 0.2s;
+  position: absolute;
+  top: 1.2vh;
+  left: 0.5vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.send_contact_form {
+  user-select: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  background: #fff;
+}
+.send_contact_form_hover {
+  user-select: none;
+  border: none;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  width: 0;
+  height: 100%;
+  background: #a0a0a0;
+  color: #fff;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.button_container_send {
+  margin-top: 6.1787%;
+  border: 1px solid #a0a0a0;
+  width: 22.16582%;
+  height: 11.881188%;
+  border-radius: 0.488vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.button_container_send:hover .send_contact_form_hover {
+  width: 100%;
+  height: 100%;
+}
+.button_container_send:hover .send_contact_form {
+  width: 0;
+  height: 100%;
+}
+.button_container_send:active {
+  background: #ffb75e;
+  border: 1px solid #ffb75e;
+}
+.button_container_send:active .send_contact_form_hover {
+  background: #ffb75e;
+  color: #fff;
+}
+.button_container_send:active .send_contact_form {
+  color: #fff;
+  background: #ffb75e;
+}
+.map_con {
+  width: 28.88888%;
+  height: 70.8%;
+  overflow: hidden;
+}
+.error_message_send_form {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #f00;
+  position: absolute;
+  top: 35vh;
+}

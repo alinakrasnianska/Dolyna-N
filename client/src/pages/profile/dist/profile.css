@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.profile_con {
+  width: 99.6vw;
+}
+.profile_main {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}

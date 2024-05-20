@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.red_banned {
+  color: #f00;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.22rem;
+  line-height: 2.5rem;
+  margin: 7.69vh 0 0 5vw;
+}
+.counter_text_banned {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.11rem;
+  line-height: 2.3rem;
+  margin: 4vh 0 0 5vw;
+}
+.yellow_banned {
+  color: #ffb75e;
+}
+.banned_cont {
+  height: 77vh;
+}

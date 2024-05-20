@@ -1,0 +1,16 @@
+*{
+   margin:0;
+}
+*::selection{
+   background:#FFB75E;
+   color:#2A2C34;           
+}
+
+html {
+   font-size: 1.1111vw; 
+ }
+
+
+ input[type=number] {
+   -moz-appearance: textfield;
+ } 

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.img_slider {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+.black_block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.37);
+}
+.title {
+  z-index: 2;
+  position: absolute;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.625rem;
+  line-height: 4.8rem;
+  color: #fff;
+  width: 60vw;
+  top: 20.48%;
+  left: 10.15%;
+}
+.title1 {
+  width: 60vw;
+}
+.title2 {
+  width: 60vw;
+}
+.title3 {
+  width: 80vw;
+}
+.description {
+  z-index: 2;
+  color: #fff;
+  width: 40.8%;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.5vh;
+  line-height: 2.7vh;
+}
+.description1 {
+  position: absolute;
+  top: 62%;
+  left: 47%;
+}
+.description2 {
+  position: absolute;
+  top: 42%;
+  left: 10.15%;
+}
+.description3 {
+  position: absolute;
+  top: 58%;
+  left: 38%;
+}
+.scroll_bottom {
+  user-select: none;
+  background: rgba(0,0,0,0.54);
+  border-radius: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  width: 5.5%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+.scroll_bottom img {
+  width: 50%;
+  height: 50%;
+}
+.scroll_bottom:hover {
+  border: 1px solid #fff;
+}
+.scroll_imgs {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-flow: row nowrap;
+  gap: 12%;
+  cursor: pointer;
+}
+.btn_bar {
+  width: 92.08%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-flow: row nowrap;
+}
+.scroll_menu {
+  width: 8.6%;
+  height: 34.65%;
+  background: rgba(0,0,0,0.54);
+  border-radius: 100vw;
+  box-sizing: border-box;
+}
+.active {
+  border: 1px solid #fff;
+}
+.connect_to_sap {
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  width: 10%;
+  height: 40%;
+  border-radius: 0.9vh;
+  background: rgba(0,0,0,0.54);
+  transition: 0.4s;
+  box-sizing: border-box;
+}
+.connect_to_sap img {
+  width: 60%;
+  height: 60%;
+  margin-top: -10%;
+}
+.connect_to_sap:hover {
+  border: 1px solid #fff;
+}
+.btn_bar_con {
+  width: 100%;
+  height: 12.68%;
+  position: absolute;
+  bottom: 5.121%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.imgs_con {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  overflow: hidden;
+}
+.img_con {
+  width: 33.3%;
+  height: 100%;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+.img_con_img {
+  user-select: none;
+  width: 100vw;
+  margin-top: -12vh;
+}

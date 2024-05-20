@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.faf_con {
+  width: 100%;
+  height: 83.2vh;
+  padding: 4.98vh 0 0 3.54vw;
+  box-sizing: border-box;
+}
+.faf_title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.22rem;
+  line-height: 2.4rem;
+}
+.faf_swiper {
+  width: 62vw;
+  height: 6.8359vh;
+  background: #ebebeb;
+  margin-top: 2.92968vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.swiper_content {
+  position: absolute;
+  left: 0;
+  z-index: 3;
+  background: #ebebeb;
+  width: 100%;
+  height: 91.428%;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.33rem;
+  line-height: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  gap: 2.348993%;
+  box-sizing: border-box;
+  padding-left: 4.8%;
+}
+.swiper_content_text {
+  width: 20.4697%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  word-wrap: break-word;
+  text-align: end;
+}
+.yellow_hover {
+  z-index: 2;
+  transition: 0.4s;
+  position: absolute;
+  left: 7.2%;
+  background: #ffb75e;
+  width: 18%;
+  height: 100%;
+}
+.faf_content {
+  width: 100%;
+  height: 54.98vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  position: relative;
+}
+.faf_text_title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.22rem;
+  line-height: 2.5rem;
+  width: 62.91666vw;
+}
+.faf_text_description {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.11rem;
+  line-height: 1.3rem;
+  width: 42.91666vw;
+  margin-top: 2.34375vh;
+}
+#ys1 {
+  position: absolute;
+  top: 0;
+  right: 13vw;
+}
+#ys2 {
+  position: absolute;
+  bottom: 0;
+  right: 33.75vw;
+}
+.yellow_square {
+  width: 12.988vh;
+  height: 12.988vh;
+  background: #ffb75e;
+}
+.faf_img_swiper {
+  z-index: 3;
+  right: 14.4vw;
+  position: absolute;
+  width: 48.82vh;
+  height: 48.82vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  overflow: hidden;
+}
+.faf_img_con {
+  overflow: hidden;
+  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+}
+.faf_img {
+  height: 100%;
+  user-select: none;
+}

@@ -1,0 +1,97 @@
+@import '../../modules/basic'
+
+.recover_menu_con
+   sizer(99.6vw,96.19vh)
+   flexer(c,c,rn)
+.recover_menu
+   sizer(44.44vw,63.7vh)
+   border 1px solid #D9D9D9
+   border-radius 1.46vh
+   box-shadow: 0.247vw 0.39vh 1.38vw rgba(0, 0, 0, 0.164)
+   flexer(s,c,cn)  
+   padding 2.35% 0 0 0
+   box-sizing border-box
+   overflow hidden
+   transition .8s
+.recover_menu_fields_con
+   sizer(87.5%,15.16%)
+   flexer(e,s,cn)
+   position: relative;
+
+
+.dynamicInputRecover
+   transition .6s
+   sizer(100%, 68%)
+   outline none
+   border-top none
+   border-left none
+   border-right none
+   border-bottom solid 2px #D9D9D9
+   box-sizing border-box
+   fonter(650, 1.5rem, 1.6rem)
+   padding-left .5vh
+   &::placeholder
+      opacity 0
+   &:focus
+      ~ .dynamicLabelRecover
+         color y
+   &:not(:placeholder-shown)
+      ~ .dynamicLabelRecover
+         fonter(650, 1rem, 1.3rem)
+         opacity 60%
+         top 0
+.dynamicLabelRecover 
+   user-select none
+   transition .2s
+   position absolute
+   top 4.5vh
+   left .5vh
+   fonter(650, 1.5rem, 1.6rem)
+.button_container_recover 
+   sizer(87.5%,10.41%)
+   margin-top 8.57%
+   border-radius 0.68vw
+   border 2px solid #D9D9D9
+   flexer(s,c,rn)
+   transition .4s
+   overflow: hidden
+   &:hover  
+      border 2px solid y
+      .login_btn_recover
+         sizer(0,100%)
+      .login_btn_recover_hover
+         sizer(100%,100%)
+.login_btn_recover
+   fonter(650,1.125rem,1.3rem)
+   cursor pointer
+   transition .4s
+   padding: 0
+   sizer(100%,100%)
+   outline none 
+   border: none
+   background: b
+   color white
+   flexer(c,c,rn)
+   
+.login_btn_recover_hover
+   fonter(650,1.125rem,1.3rem)
+   cursor pointer
+   transition .4s
+   padding: 0
+   border: none
+   sizer(0,100%)
+   outline none 
+   color b 
+   background: white  
+   flexer(c,c,rn) 
+.expired_date
+   sizer(90%,90%)
+   fonter(700,2rem,2.2rem)
+   flexer(s,s,cn) 
+   gap 2vh
+.expired_link
+   color y 
+   cursor pointer
+   transition .5s
+   &:hover 
+      opacity 68%

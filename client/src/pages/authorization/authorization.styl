@@ -1,0 +1,211 @@
+@import '../../modules/basic'
+
+
+.login_con
+   sizer(99.6vw,96.2vh)
+   flexer(s,c,cn)
+   overflow: hidden
+.auth_con
+   sizer(100%,100%)  
+   flexer(s,c,cn)
+   overflow: hidden
+
+
+
+.login_title
+   fonter(650,2.813rem,4.88vh)
+   margin: 6.9vh 0 
+   transition: .6s
+.login
+   sizer(44.44vw,63.7vh)
+   border 1px solid #D9D9D9
+   border-radius 1.46vh
+   box-shadow: 0.247vw 0.39vh 1.38vw rgba(0, 0, 0, 0.164)
+   flexer(s,c,cn)  
+   padding 2.35% 0 0 0
+   box-sizing border-box
+   overflow hidden
+   transition .8s
+
+
+.login_fields_con
+   sizer(87.5%,15.16%)
+   flexer(e,s,cn)
+   position: relative;
+
+.dynamicInput
+   transition .6s
+   sizer(100%, 68%)
+   outline none
+   border-top none
+   border-left none
+   border-right none
+   border-bottom solid 2px #D9D9D9
+   box-sizing border-box
+   fonter(650, 1.5rem, 1.6rem)
+   padding-left .5vh
+   &::placeholder
+      opacity 0
+   &:focus
+      ~ .dynamicLabel
+         color y
+   &:not(:placeholder-shown)
+      ~ .dynamicLabel
+         fonter(650, 1rem, 1.3rem)
+         opacity 60%
+         top 0
+.dynamicLabel 
+   user-select none
+   transition .2s
+   position absolute
+   top 4.5vh
+   left .5vh
+   fonter(650, 1.5rem, 1.6rem)
+
+.register_fields
+   margin-top 3vh
+.forgot
+   width 87.5%
+   flexer(e,c,rn)
+   margin-top 3vh
+.forgot_text
+   user-select: none
+   cursor pointer
+   fonter(650,1.125rem,1.3rem)
+   text-decoration: underline
+   transition .2s
+   &:hover
+      color y
+.button_container 
+   sizer(87.5%,10.41%)
+   margin-top 8.57%
+   border-radius 0.68vw
+   border 2px solid #D9D9D9
+   flexer(s,c,rn)
+   transition .4s
+   overflow: hidden
+   &:hover  
+      border 2px solid y
+      .login_btn
+         sizer(0,100%)
+      .login_btn_hover
+         sizer(100%,100%)
+.login_btn
+   fonter(650,1.125rem,1.3rem)
+   cursor pointer
+   transition .4s
+   padding: 0
+   sizer(100%,100%)
+   outline none 
+   border: none
+   background: b
+   color white
+   flexer(c,c,rn)
+   
+.login_btn_hover
+   fonter(650,1.125rem,1.3rem)
+   cursor pointer
+   transition .4s
+   padding: 0
+   border: none
+   sizer(0,100%)
+   outline none 
+   color b 
+   background: white  
+   flexer(c,c,rn) 
+
+.new_cus
+   fonter(200,1.25rem,1.4rem)
+   width 87.5%
+   flexer(s,c,rn)
+   margin 8% 0 0 2%
+.register_btn
+   sizer(48.5%,100%)
+   border-radius: 0.7vw
+   border solid 1px b
+   fonter(650,1.125rem,1.3rem)
+   outline: none
+   background: white
+   transition: .4s
+   cursor pointer
+   &:hover 
+      background b 
+      color white
+.reg_btn_con
+   width 87.5%
+   height 6.73%
+   flexer(s,c,rn)
+   margin-top .5vh 
+.register  
+   transition .8s
+   sizer(44.44vw,0vh)
+   border none
+   border-radius 1.46vh
+   box-shadow: none
+   flexer(s,c,cn)  
+   padding 0 0 0 0
+   //padding 2.35% 0 0 0
+   box-sizing border-box
+   overflow: hidden
+.register_fields_con
+   sizer(87.5%,11.69%)
+   flexer(e,s,cn)
+   position: relative;
+.dynamicInputreg
+   sizer(100%, 68%)
+   outline none
+   border-top none
+   border-left none
+   border-right none
+   border-bottom solid 2px #D9D9D9
+   box-sizing border-box
+   fonter(650, 1.5rem, 1.6rem)
+   padding-left .5vh
+   &::placeholder
+      opacity 0
+   &:focus
+      ~ .dynamicLabelr
+         color y
+   &:not(:placeholder-shown)
+      ~ .dynamicLabelr
+         fonter(650, 1rem, 1.3rem)
+         opacity 60%
+         top 0
+         
+.dynamicLabelr
+   user-select none
+   transition .2s
+   position absolute
+   top 4.1vh
+   left .5vh
+   fonter(650, 1.5rem, 1.6rem)
+
+.back_to_login
+   fonter(150, 1.5rem, 1.6rem)
+   flexer(s,c,rn)
+   sizer(87.5%,1.6rem)
+   margin: 4.7vh 0 0 0
+.button_containerR 
+   sizer(87.5%,10.41%)
+   margin-top 12.57%
+   border-radius 0.68vw
+   border 2px solid #D9D9D9
+   flexer(s,c,rn)
+   transition .4s
+   overflow: hidden
+   &:hover  
+      border 2px solid y
+      .login_btn
+         sizer(0,100%)
+      .login_btn_hover
+         sizer(100%,100%)
+
+.back_to_login_text
+   color y 
+   cursor pointer
+   &:hover
+      text-decoration: underline
+
+.Error_
+   color red 
+   fonter(sbold,1rem,1rem)

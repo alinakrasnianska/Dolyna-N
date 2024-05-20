@@ -1,0 +1,147 @@
+@import '../../modules/basic'
+
+.chatAI-box
+   sizer(0,87.46vh) //39.44vw
+   background: white
+   position: fixed 
+   top 11.5vh
+   transition .8s
+   right: 0
+   z-index 10
+   border-radius: 1vh  0 0 1vh
+   box-shadow: -15px 4px 15px 0 rgba(0, 0, 0, 0.2);
+   box-sizing: border-box
+   padding 0 //0 13px 
+.chatAI-background
+   position: absolute
+   top 0
+   sizer(100%,100%)
+   flexer(c,c,rn)
+   img 
+      width: 90%
+      user-drag : none
+      user-select: none
+      -moz-user-select: none;
+      -webkit-user-drag: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      filter: blur(.9vh);
+.chatAI-header
+   padding: 27px 0 27px 15px
+   box-sizing: border-box
+   fonter(700,1rem,1.2rem)
+   sizer(100%,auto)
+   flexer(sb,c,rn)
+   position relative
+   z-index: 11
+.chatAI-arrow-back
+   background: y 
+   border-radius: 15vh
+   sizer(4vh,4vh)
+   flexer(c,c,rn)
+   transition: .4s
+   opacity 70%
+   .chatAI-arrow
+      background: white
+      sizer(2vh,2vh)
+      clip-path: polygon(0 50%, 78% 0, 33% 50%, 78% 100%);
+      transition: .4s
+   &:hover
+      opacity 100%
+      .chatAI-arrow
+         transform: rotate(180deg)
+
+.input_field_message
+   sizer(100%,66px)
+   position absolute
+   z-index: 11
+   bottom 2%
+   .input_message
+      sizer(93.58%,55px)
+      background: rgba(165, 165, 165, 0.52)
+      border-radius: 1.2vh
+      border: none
+      outline: none 
+      padding 2% 0 0 2%
+      box-sizing: border-box
+      fonter(500,.8rem,1rem)
+      color rgba(0, 0, 0, 0.664)
+      flexer(s,c,rn)
+      resize none
+      &:hover
+         border: none
+         outline: none 
+   .send_msg_con
+      sizer(8%,60px)
+      background-color: rgba(248, 179, 87, 0.56)
+      border-radius: 15px
+      position: absolute
+      right 2.5%
+      top -30%
+      transition: .4s
+      flexer(c,c,rn)
+      .send_msg_arr
+         background: white 
+         transition: .4s
+         sizer(50%,30px)
+         clip-path: polygon(0 0, 100% 48%, 100% 52%, 0 100%, 17% 60%, 17% 40%);
+      &:hover
+         background-color: rgba(250, 204, 144, 0.86)
+         .send_msg_arr
+            transform: rotate(-90deg) 
+      &:active
+         background-color: rgba(248, 179, 87, 1)
+         .send_msg_arr
+            transform: rotate(-180deg) 
+
+.message_con
+   sizer(100%,90%)
+   position: relative
+   z-index 11
+   margin-top -5%
+   padding 2% 0 10% 0
+   box-sizing: border-box
+   overflow-y: scroll
+   scrollbar-width: none;
+   flexer(s,s,cn)
+   gap 1%
+   fonter(700,1rem,1.2rem)
+   .msg_con
+      width 100%
+      .bot_msg
+         background: rgba(248, 179, 87, 0.56)
+         sizer(max-content,auto)
+         max-width: 30vw
+         text-wrap wrap
+         flexer(s,c,rn)
+         border-radius: 15px
+         padding 22px 4% 22px 14px
+         box-sizing: border-box
+         overflow-wrap anywhere;
+      .user_msg
+         background: rgba(165, 165, 165, 0.52)
+         sizer(max-content,auto)
+         max-width: 30vw
+         text-wrap wrap
+         flexer(e,c,rn)
+         border-radius: 15px
+         padding 22px 14px 22px 4%
+         text-align: end
+         box-sizing: border-box
+         overflow-wrap anywhere;
+
+.bot_msg_con
+   flexer(s,c,rn)
+.user_msg_con
+   flexer(e,c,rn)
+
+.msg_loader
+   background: white
+   border-radius: 12vh
+   z-index 12
+   sizer(10vh,10vh)
+   position absolute
+   top 40%
+   left 40%
+   .msg_loader_gif
+      width 100%

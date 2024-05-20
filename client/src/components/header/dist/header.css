@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.header_con {
+  width: 99.6vw;
+  height: 10.6vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  gap: 0.78125vh;
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  height: 9.7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.logo {
+  cursor: pointer;
+  user-select: none;
+  margin-left: 4.72vw;
+  height: 8.642vh;
+}
+.nav {
+  margin-right: 4.72vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  gap: 5.69vw;
+}
+.nav_element {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.125rem;
+  line-height: 2.15vh;
+  cursor: pointer;
+  transition: 0.2s;
+  user-select: none;
+}
+.nav_element:hover {
+  color: #ffb75e;
+}
+.line {
+  background: #d9d9d9;
+  width: 100vw;
+  height: 2px;
+}

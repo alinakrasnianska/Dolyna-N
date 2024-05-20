@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.products_con {
+  width: 99.6vw;
+  background: #f4f4f4;
+  padding: 3.762695vh 6.8055555vw 0 6.8055555vw;
+  box-sizing: border-box;
+}
+.products_title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.66rem;
+  line-height: 2.8rem;
+  margin-bottom: 7.03125vh;
+}
+.products_list {
+  width: 100%;
+}
+.product_margin {
+  height: 12.3046875vh;
+}

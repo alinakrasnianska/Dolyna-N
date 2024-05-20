@@ -1,0 +1,149 @@
+@import '../../modules/basic'
+
+.send_form_con
+   sizer(100%,56.54vh)
+   flexer(c,c,rn)
+   gap 10.97vw
+   
+
+.send_form_first_row
+   sizer(100%,12.871287%)
+   flexer(s,c,rn)
+   gap 8.29%
+.send_form_title
+   fonter(700,2.22rem,2.5rem)
+   flexer(c,c,rn)
+   width 100%
+   margin-bottom 5.56%
+
+
+
+.send_form
+   sizer(41.04%,78.77%)
+   flexer(s,e,cn) 
+   gap 5.95%
+   position relative
+
+
+.contact_fields_con
+   sizer(45.85448%,100%)
+   flexer(e,s,cn)
+   position: relative;
+
+.contact_fields_con_full
+   sizer(100%,12.871287%)  
+   position: relative;
+   flexer(e,s,cn)
+
+.dynamicInputLittle
+   sizer(100%, 68%)
+   outline none
+   border-top none
+   border-left none
+   border-right none
+   border-bottom solid 2px #D9D9D9
+   box-sizing border-box
+   fonter(650, 1rem, 1.2rem)
+   padding-left .5vh
+   &::placeholder
+      opacity 0
+   &:focus
+      ~ .dynamicLabelLittle
+         color y
+   &:not(:placeholder-shown)
+      ~ .dynamicLabelLittle
+         fonter(650, .8rem, 1rem)
+         opacity 60%
+         top -1vh
+   &::-webkit-outer-spin-button, &::-webkit-inner-spin-button
+      -webkit-appearance: none;
+      margin: 0;
+
+.dynamicLabelLittle 
+   user-select none
+   transition .2s
+   position absolute
+   top 1.6vh  
+   left .5vh
+   fonter(600, 1rem, 1.2rem)
+
+
+.dynamicInputBig
+   sizer(100%, 100%)
+   outline none
+   border-top none
+   border-left none
+   border-right none
+   border-bottom solid 2px #D9D9D9
+   box-sizing border-box
+   fonter(650, 1rem, 1.2rem)
+   padding-left .5vh
+   &::placeholder
+      opacity 0
+   &:focus
+      ~ .dynamicLabelBig
+         color y
+   &:not(:placeholder-shown)
+      ~ .dynamicLabelBig
+         fonter(650, .8rem, 1rem)
+         opacity 60%
+         top -.5vh
+.dynamicLabelBig
+   user-select none
+   transition .2s
+   position absolute
+   top 1.2vh  
+   left .5vh
+   fonter(600, 1rem, 1.2rem)
+.send_contact_form
+   user-select: none
+   border none
+   cursor pointer
+   transition .4s
+   padding: 0
+   cursor pointer
+   sizer(100%,100%)
+   fonter(500,1rem,1.2rem)
+   background: white 
+.send_contact_form_hover
+   user-select: none
+   border none 
+   transition: .4s
+   cursor pointer
+   padding: 0
+   outline none 
+   sizer(0,100%)
+   background: #A0A0A0
+   color white
+   fonter(500,1rem,1.2rem)
+.button_container_send
+   margin-top 6.1787%
+   border 1px solid #A0A0A0
+   sizer(22.16582%,11.881188%)
+   border-radius: 0.488vh
+   overflow: hidden
+   flexer(s,c,rn)
+   &:hover
+      .send_contact_form_hover
+         sizer(100%,100%)
+      .send_contact_form
+         sizer(0,100%)
+   &:active
+      background: y 
+      border 1px solid y
+      .send_contact_form_hover
+         background: y 
+         color white
+      .send_contact_form
+         color white
+         background: y 
+
+.map_con
+   sizer(28.88888%,70.8%)
+   overflow hidden
+
+.error_message_send_form
+   fonter(500,1rem,1rem)
+   color red 
+   position absolute
+   top 35vh

@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.login_con {
+  width: 99.6vw;
+  height: 96.2vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  overflow: hidden;
+}
+.auth_con {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  overflow: hidden;
+}
+.login_title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 2.813rem;
+  line-height: 4.88vh;
+  margin: 6.9vh 0;
+  transition: 0.6s;
+}
+.login {
+  width: 44.44vw;
+  height: 63.7vh;
+  border: 1px solid #d9d9d9;
+  border-radius: 1.46vh;
+  box-shadow: 0.247vw 0.39vh 1.38vw rgba(0,0,0,0.164);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  padding: 2.35% 0 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: 0.8s;
+}
+.login_fields_con {
+  width: 87.5%;
+  height: 15.16%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  position: relative;
+}
+.dynamicInput {
+  transition: 0.6s;
+  width: 100%;
+  height: 68%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #d9d9d9;
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  padding-left: 0.5vh;
+}
+.dynamicInput::placeholder {
+  opacity: 0;
+}
+.dynamicInput:focus ~ .dynamicLabel {
+  color: #ffb75e;
+}
+.dynamicInput:not(:placeholder-shown) ~ .dynamicLabel {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  opacity: 60%;
+  top: 0;
+}
+.dynamicLabel {
+  user-select: none;
+  transition: 0.2s;
+  position: absolute;
+  top: 4.5vh;
+  left: 0.5vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+.register_fields {
+  margin-top: 3vh;
+}
+.forgot {
+  width: 87.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  margin-top: 3vh;
+}
+.forgot_text {
+  user-select: none;
+  cursor: pointer;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+.forgot_text:hover {
+  color: #ffb75e;
+}
+.button_container {
+  width: 87.5%;
+  height: 10.41%;
+  margin-top: 8.57%;
+  border-radius: 0.68vw;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.button_container:hover {
+  border: 2px solid #ffb75e;
+}
+.button_container:hover .login_btn {
+  width: 0;
+  height: 100%;
+}
+.button_container:hover .login_btn_hover {
+  width: 100%;
+  height: 100%;
+}
+.login_btn {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: #2a2c34;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.login_btn_hover {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 0;
+  border: none;
+  width: 0;
+  height: 100%;
+  outline: none;
+  color: #2a2c34;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.new_cus {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.25rem;
+  line-height: 1.4rem;
+  width: 87.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  margin: 8% 0 0 2%;
+}
+.register_btn {
+  width: 48.5%;
+  height: 100%;
+  border-radius: 0.7vw;
+  border: solid 1px #2a2c34;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  outline: none;
+  background: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.register_btn:hover {
+  background: #2a2c34;
+  color: #fff;
+}
+.reg_btn_con {
+  width: 87.5%;
+  height: 6.73%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  margin-top: 0.5vh;
+}
+.register {
+  transition: 0.8s;
+  width: 44.44vw;
+  height: 0vh;
+  border: none;
+  border-radius: 1.46vh;
+  box-shadow: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.register_fields_con {
+  width: 87.5%;
+  height: 11.69%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  position: relative;
+}
+.dynamicInputreg {
+  width: 100%;
+  height: 68%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px #d9d9d9;
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  padding-left: 0.5vh;
+}
+.dynamicInputreg::placeholder {
+  opacity: 0;
+}
+.dynamicInputreg:focus ~ .dynamicLabelr {
+  color: #ffb75e;
+}
+.dynamicInputreg:not(:placeholder-shown) ~ .dynamicLabelr {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  opacity: 60%;
+  top: 0;
+}
+.dynamicLabelr {
+  user-select: none;
+  transition: 0.2s;
+  position: absolute;
+  top: 4.1vh;
+  left: 0.5vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+}
+.back_to_login {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 150;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  width: 87.5%;
+  height: 1.6rem;
+  margin: 4.7vh 0 0 0;
+}
+.button_containerR {
+  width: 87.5%;
+  height: 10.41%;
+  margin-top: 12.57%;
+  border-radius: 0.68vw;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  transition: 0.4s;
+  overflow: hidden;
+}
+.button_containerR:hover {
+  border: 2px solid #ffb75e;
+}
+.button_containerR:hover .login_btn {
+  width: 0;
+  height: 100%;
+}
+.button_containerR:hover .login_btn_hover {
+  width: 100%;
+  height: 100%;
+}
+.back_to_login_text {
+  color: #ffb75e;
+  cursor: pointer;
+}
+.back_to_login_text:hover {
+  text-decoration: underline;
+}
+.Error_ {
+  color: #f00;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+}

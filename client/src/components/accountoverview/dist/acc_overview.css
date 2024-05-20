@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.acc_overview {
+  overflow: hidden;
+  transition: 0.4s;
+  width: 100%;
+  height: 53.3203125vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  gap: 3.81944444444vw;
+}
+.acc_overview .acc_general_info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  gap: 2vh;
+  width: 44.444vw;
+  height: 28.41796875vh;
+  border: 1px solid #d9d9d9;
+  border-radius: 1.46vh;
+  box-shadow: 0.247vw 0.39vh 1.38vw rgba(0,0,0,0.164);
+  box-sizing: border-box;
+  padding: 2.83vh 0 0 4.166vw;
+}
+.acc_overview .acc_general_info .general_info_title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.acc_overview .acc_general_info .general_info_input_con {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  gap: 2vh;
+}
+.acc_overview .acc_general_info .general_info_input_con .general_input_con {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  width: 38.8888888889vw;
+  height: 6.640625vh;
+}
+.acc_overview .acc_general_info .general_info_input_con .general_input_con .general_info_input {
+  width: 100%;
+  height: 100%;
+  background: #2a2c34;
+  border-radius: 0.987vh;
+  color: #fff;
+  box-sizing: border-box;
+  padding-left: 1.1527777vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.acc_overview .acc_general_info .general_info_input_con .general_input_con .general_call_icon {
+  width: 2.832vh;
+  position: absolute;
+  right: 1vw;
+}
+.acc_overview .general_info_request {
+  overflow: scroll;
+  width: 100%;
+  height: 78%;
+}
+.acc_overview .general_info_request .last_request {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: row nowrap;
+  gap: 7.3611vw;
+  overflow: hidden;
+}
+.acc_overview .general_info_request .last_request .last_req_img_con {
+  width: 18.65vh;
+  height: 18.65vh;
+}
+.acc_overview .general_info_request .last_request .last_req_img_con .last_req_img {
+  width: 100%;
+}
+.acc_overview .general_info_request .last_request .last_req_text {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: column nowrap;
+  gap: 0.7vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11rem;
+  line-height: 1.3rem;
+}
+.total_quote_quntity {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}

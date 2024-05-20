@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.success_con_add {
+  transition: 0.8s;
+  opacity: 0;
+  box-sizing: border-box;
+  padding-left: 2.368vw;
+  z-index: 4;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  width: 32.98vw;
+  height: 9.57vh;
+  background: rgba(189,255,184,0.87);
+  border-radius: 1.48vh 0 0 1.48vh;
+  right: 0;
+  top: 5vh;
+  gap: 1.3888vw;
+}
+.success_icon_con {
+  width: 3.9vh;
+  height: 3.9vh;
+  background: #11d200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  border-radius: 100vh;
+}
+.success_add_text {
+  width: 70%;
+}
+.success_add_text {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}

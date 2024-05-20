@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.cart_con {
+  width: 99.6vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.cart {
+  z-index: 3;
+  position: relative;
+  top: 0;
+  left: 51.1972222222vw;
+  background: #fff;
+  width: 48.4027777778vw;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 8.88671875vh;
+}
+.cart_title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3888rem;
+  line-height: 1.5rem;
+  margin: 0 0 4.58984375vh 5.55555vw;
+}
+.cart_points {
+  box-sizing: border-box;
+  padding-right: 0.7vw;
+  width: 100%;
+  max-height: 64.5859vh;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-flow: column nowrap;
+  gap: 0.87890625vh;
+}
+.cart_element {
+  width: 42.5vw;
+  height: 23.14453125vh;
+  min-height: 23.14453125vh;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  box-shadow: 0.247vw 0.39vh 1.38vw rgba(0,0,0,0.164);
+  border-radius: 1.48vh;
+  padding: 1.953125vh 2vw 1.75vh 2.7vw;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.cart_element_description {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  gap: 1.953125vh;
+}
+.cart_element_title {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11rem;
+  line-height: 1.2rem;
+}
+.cart_element_img_con {
+  width: 9.86vw;
+  height: 13.86vh;
+}
+.cart_element_img {
+  height: 100%;
+  border-radius: 1.48vh;
+  box-shadow: 0.2vw 0.29vh 0.9vw #ffb75e;
+}
+.cart_element_quantity_text {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11rem;
+  line-height: 1.2rem;
+  width: 27.847vw;
+  height: 17vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-flow: row nowrap;
+}
+.delete_from_cart {
+  position: absolute;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  width: 2.5vh;
+  height: 2.5vh;
+  padding: 0;
+  border: 0;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  background: #ff9595;
+  border-radius: 100vh;
+  right: 1.18vw;
+  top: 1.26953125vh;
+}
+.delete_from_cart:hover {
+  background: rgba(148,44,44,0.83);
+}
+.requestQuote {
+  background: #2a2c34;
+  width: 38.88vw;
+  height: 6.64vh;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #fff;
+  border: 2px solid #d9d9d9;
+  outline: none;
+  padding: 0;
+  border-radius: 0.98vh;
+  transition: 0.3s;
+}
+.requestQuote:hover {
+  opacity: 70%;
+}
+.requestQuote:active {
+  opacity: 100%;
+  border: 2px solid #ffb75e;
+  background: #ffb75e;
+  color: #000;
+}
+.total_section {
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11rem;
+  line-height: 1.2rem;
+  padding-right: 1.111vw;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
+.total_section_con {
+  margin-top: 2.32vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  gap: 3.41796vh;
+}
+.requestQuote_con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+}
